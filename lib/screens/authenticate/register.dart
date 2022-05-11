@@ -41,7 +41,8 @@ class _RegisterState extends State<Register> {
                   )
                 ]),
             body: Container(
-                padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 40),
+                padding:
+                    const EdgeInsets.symmetric(vertical: 20.0, horizontal: 40),
                 child: Form(
                   key: _formKey,
                   child: Column(children: <Widget>[
